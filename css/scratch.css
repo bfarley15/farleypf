@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(164, 189, 180) !important;
+}
+h1{
+
+}
+.font-weight-bold{
+
+}
+/*div styles*/
+.common1{
+    font-family: Avenir;
+    position: absolute;
+    color: rgb(2, 46, 90);
+}
+.common2{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
+.top{
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.top2{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.undertop{
+    top: 70px;
+    left: 0px;
+    right: 0px;
+}
+.middle{
+    top: 110px;
+    left: 0px;
+    right: 0px;
+}
+.experience{
+    top: 430px;
+    left: 0px;
+    right: 0px;
+}
+.service{
+    top: 1120px;
+    left: 0px;
+    right: 0px;
+}
+.personal{
+    top: 1300px;
+    left: 0px;
+    right: 0px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgstuff{
+    display: block;
+    margin: auto;
+    border: 3px solid rgb(230, 230, 83);
+    height: 30%;
+    width: 30%;
+}
+.tableaustuff{
+    display: inline-block;
+    margin: auto;
+    
+}
+.title{
+    font-size: xx-large;
+}
+.title1{
+    font-size: x-large ;
+}
+.title2{
+    font-weight: bold;
+}
+/* Move numbers or bullets next to text */
+ol, ul {
+    padding-left: 0; /* Remove default left padding */
+}
+
+ol li, ul li {
+    list-style-position: inside; /* Move numbers or bullets inside the list item */
+}
+/* Target list items with numbers and make the text bold */
+ol li {
+    font-weight: normal; /* Reset font weight for all list items */
+}
+
+ol li:lang(en) {
+    font-weight: bold; /* Make the text bold for list items with numbers (language set to 'en') */
+}
+.fontitalics{
+    font-style: italic;
+}
+.normalfont{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter !important;
+}
+/*Underline*/
+.underline-text {
+    position: relative; /* Set positioning context */
+    display: inline-block; /* Display as inline block to fit the content */
+}
+
+.underline-text::after {
+    content: ''; /* Create the underline */
+    position: absolute; /* Position the underline */
+    left: 0; /* Align to the left edge of the element */
+    bottom: -5px; /* Adjust the distance of the underline from the text */
+    width: 100%; /* Span the full width of the parent */
+    border-bottom: 1px solid black; /* Style the underline */
+}

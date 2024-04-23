@@ -1,0 +1,260 @@
+body {
+    font-family: Avenir !important;
+  }
+  
+  h1 {
+    font-family: Avenir !important;
+  }
+  h5{
+    color: white;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: calc(1.325rem + 0.9vw);
+  }
+  
+  .mb-3 {
+    color: rgb(217, 184, 138) !important;
+  }
+  
+  .mb-3-introtext {
+    color: black;
+  }
+  
+  .gallery-container1 {
+    width: 100%;
+    position: relative;
+    overflow-x: auto;
+  }
+  .gallery-container2 {
+    margin-top: 2000x;
+    width: 100%;
+    position: relative;
+    overflow-x: auto;
+  }
+  .gallery-container3 {
+    margin-top: 5000px;
+    width: 100%;
+    position: relative;
+    overflow-x: auto;
+  }
+  
+  .gallery-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  .gallery-wrapper::-webkit-scrollbar {
+    display: inline; /* Safari and Chrome */
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    max-width: 25%;
+    width: 25%;
+    height: auto;
+    margin: 70px;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    z-index: 1; /* Ensure the buttons are on top of the images */
+  }
+  .prev-btn2,
+  .next-btn2 {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    z-index: 1; /* Ensure the buttons are on top of the images */
+  }
+  
+  .prev-btn {
+    left: 475px;
+  }
+  
+  .next-btn {
+    right: 475px;
+  }
+  
+  /* .mycontainer {
+    position: relative;
+    height: 100vh; 
+    color: #e6a756 !important;
+  } */
+  
+  .left-box {
+    position: absolute;
+    left: 50px; /* Adjust the left position as needed */
+    bottom: 33.33%; /* Position the box about 2/3 down the screen */
+    width: 400px; /* Set the width of the box */
+    height: 200px; /* Set the height of the box */
+    background-color: rgb(217, 184, 138); /* Set the background color of the box */
+    padding: 20px; /* Add some padding to the box */
+    box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.362); /* Add a subtle box shadow */
+  }
+
+  /*Div Styles*/
+  .common{
+    position: absolute;
+    font-family: Avenir;
+  }
+  .top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+  }
+  .middle{
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    font-family: Avenir;
+    text-align: center;
+  }
+  .bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+  }
+  .mb-5{
+    color: rgb(251, 248, 248) !important;
+  }
+  .mb-6{
+    background-color: white;
+  }
+  .cta{
+    background-color: rgba(205, 156, 108, 0.776) !important;
+  }
+  .mb-7{
+    color:rgb(132, 135, 135);
+  }
+  
+  .divider{
+    color: white !important;
+  }
+  .extradetails{
+    color: white;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: calc(1.325rem + 0.9vw);
+  text-align: left !important;
+  }
+  /* .section-heading-2{
+    font-size: small;
+    font-weight: lighter;
+
+  } */
+ .btncenter{
+  
+  left: 500px !important;
+ }
+
+ .gallery-section {
+  margin-top: 20px;
+}
+
+.gallery h2 {
+  text-align: center;
+}
+.weddinggallery{
+  margin-top: 45px;
+  font-family: avenir;
+  font-size:xx-large;
+  font-weight:lighter;
+  font-style: italic;
+  color: black;
+  text-align: center;
+  align-items: center;
+}
+
+/* Common styling for all gallery sections */
+.gallery-container {
+  width: 100%;
+  position: relative;
+  overflow-x: auto;
+}
+
+.gallery-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+  display: inline; /* Safari and Chrome */
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  max-width: 25%;
+  width: 25%;
+  height: auto;
+  margin: 70px;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Styling for specific gallery sections */
+.gallery-section {
+  margin-top: 20px;
+}
+
+.gallery-section .engagements {
+  text-align: center;
+}
+
+.gallery-section .weddinggallery {
+  margin-top: 45px;
+  font-family: avenir;
+  font-size: x-large;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  align-items: center;
+}
